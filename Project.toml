@@ -1,0 +1,17 @@
+name = "ASTInterface"
+uuid = "36bfed39-3a8e-41ad-8ed9-8f1a12ca7eb2"
+authors = ["Rory Lipkis"]
+version = "0.1.0"
+
+[deps]
+CommonRLInterface = "d842c3ba-07a1-494f-bbec-f5741b0a3e98"
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
+
+[compat]
+julia = "1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
